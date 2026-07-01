@@ -1,21 +1,21 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:6A5ACD,100:00C2FF&text=Gautham%20Krishna%20J&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20•%20Laravel%20Developer&descAlignY=58"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:6A5ACD,100:00C2FF&text=Gautham%20Krishna%20J&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20Laravel%20Enthusiast&descAlignY=58"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=25&pause=1000&color=00C2FF&center=true&vCenter=true&width=750&lines=Hi+👋,+I'm+Gautham+Krishna+J;Full+Stack+Web+Developer;Laravel+Developer;Always+Learning+New+Technologies;Welcome+to+my+GitHub!"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&lines=Hi+👋,+I'm+Gautham+Krishna+J;Full+Stack+Web+Developer;Laravel+Developer;Always+Learning+New+Technologies;Welcome+to+my+GitHub!"/>
 
 <br>
 
 <a href="https://gauthamk.netlify.app">
-<img src="https://img.shields.io/badge/🌐%20Portfolio-Visit-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/🌐%20Portfolio-Visit-blue?style=for-the-badge"/>
 </a>
 
 <a href="https://linkedin.com/in/gauthamkrishnaj">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
 </a>
 
 <a href="https://instagram.com/iam._.gautham">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
 </a>
 
 <br><br>
@@ -28,74 +28,26 @@
 
 # 👨‍💻 About Me
 
-```yaml
-Name: Gautham Krishna J
-Role: Full Stack Web Developer
-Education: Bachelor of Computer Applications (BCA)
-Location: Kerala, India
+```text
+👋 Full Stack Web Developer
+🎓 Bachelor of Computer Applications (BCA)
+📍 Kerala, India
 
-Currently Learning:
-  - Laravel
-  - Django
-  - REST APIs
-  - Backend Development
-
-Languages:
-  - PHP
-  - Python
-  - JavaScript
-  - Java
-  - C
-  - C++
-
-Goal:
-  Become a Professional Full Stack Software Engineer 🚀
-```
-
-<div align="center">
-
-🎓 Passionate about building real-world software
-
-💻 Currently building modern web applications using **Laravel**
-
-🌱 Learning **Laravel**, **Django**, and Backend Development
-
+💻 Building modern web applications with Laravel
+🌱 Currently learning Django & REST APIs
 🚀 Interested in AI, Cloud Computing & Open Source
-
-⚡ Fun Fact: *My code works perfectly... until someone watches me demo it 😄*
-
-</div>
+🎯 Goal: Become a Professional Full Stack Software Engineer
+```
 
 ---
 
 # 🚀 Featured Projects
 
-### 📂 Laravel File Tracking System
-
-- Authentication
-- Role Management
-- File Movement Tracking
-- Reports
-- CSV Import & Export
-
----
-
-### 🌐 Personal Portfolio
-
-🔗 **https://gauthamk.netlify.app**
-
----
-
-### 💻 Web Development
-
-Building modern web applications using
-
-- Laravel
-- PHP
-- JavaScript
-- HTML
-- CSS
-- MySQL
+| 🚀 Project | Description |
+|------------|-------------|
+| 📂 **Laravel File Tracking System** | Authentication, Role Management, File Tracking, Reports & CSV Import/Export |
+| 🌐 **Personal Portfolio** | Responsive portfolio showcasing projects and skills |
+| 💻 **Web Development** | Building modern applications using Laravel, PHP, JavaScript & MySQL |
 
 ---
 
@@ -103,15 +55,7 @@ Building modern web applications using
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=c,cpp,java,python,php,js,html,css,mysql"/>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=laravel,django,bootstrap,tailwind"/>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,netlify,vercel,cloudflare,npm"/>
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,php,js,html,css,mysql,laravel,django,bootstrap,tailwind,git,github,vscode,figma,netlify,vercel,cloudflare,npm&perline=10"/>
 
 </p>
 
@@ -121,15 +65,15 @@ Building modern web applications using
 
 <p align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=g4thxm&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=g4thxm&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=g4thxm&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=g4thxm&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </p>
 
 <p align="center">
 
-<img width="70%" src="https://streak-stats.demolab.com?user=g4thxm&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://streak-stats.demolab.com?user=g4thxm&theme=tokyonight&hide_border=true"/>
 
 </p>
 
@@ -149,7 +93,7 @@ Building modern web applications using
 
 <p align="center">
 
-<img src="https://raw.githubusercontent.com/g4thxm/g4thxm/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
+<img src="https://raw.githubusercontent.com/g4thxm/g4thxm/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
 
 </p>
 
@@ -166,7 +110,7 @@ Building modern web applications using
 
 ---
 
-# 🌍 Connect With Me
+# 🌐 Connect With Me
 
 <p align="center">
 
@@ -186,7 +130,7 @@ Building modern web applications using
 
 ---
 
-# 💭 Random Dev Quote
+# 💭 Dev Quote
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
