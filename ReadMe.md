@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:6A5ACD,100:00C2FF&text=Gautham%20Krishna%20J&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Laravel%20Enthusiast&descAlignY=58"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:6A5ACD,100:00C2FF&text=Gautham%20Krishna%20J&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20•%20Laravel%20Enthusiast&descAlignY=58"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=750&lines=Hi+there!+👋;I'm+Gautham+Krishna+J;Full+Stack+Web+Developer;Laravel+Developer;Always+Learning+New+Things;Building+Real+World+Projects"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=25&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&lines=Hi+there!+👋;I'm+Gautham+Krishna+J;Full+Stack+Web+Developer;Laravel+Developer;Always+Learning+New+Things;Welcome+to+my+GitHub!"/>
 
 <br>
 
@@ -28,7 +28,7 @@
 
 ---
 
-# 💫 About Me
+# 👨‍💻 About Me
 
 ```python
 class Developer:
@@ -37,12 +37,15 @@ class Developer:
         self.name = "Gautham Krishna J"
         self.role = "Full Stack Web Developer"
         self.study = "Bachelor of Computer Applications (BCA)"
+        self.location = "Kerala, India"
+
         self.learning = [
             "Laravel",
             "Django",
             "REST APIs",
-            "Backend Development"
+            "Backend Architecture"
         ]
+
         self.languages = [
             "PHP",
             "Python",
@@ -53,88 +56,81 @@ class Developer:
         ]
 
     def say_hi(self):
-        print("Thanks for visiting my profile! 🚀")
+        print("Thanks for visiting my profile 🚀")
 ```
 
 - 🎓 BCA Student passionate about Software Development
-- 💻 Building modern web applications with **Laravel**
-- 🌱 Currently learning **Laravel**, **Django**, and Backend Architecture
-- 🚀 Interested in AI, Cloud Computing, and Open Source
-- 🎯 Goal: Become a Professional Full Stack Software Engineer
+- 💻 Building modern web applications using **Laravel**
+- 🌱 Currently learning **Laravel**, **Django**, and Backend Development
+- 🚀 Interested in AI, Cloud Computing & Open Source
+- 🎯 Goal: Become a Professional Full Stack Developer
 - ⚡ Fun fact: My code works perfectly... until someone watches me demo it 😄
 
 ---
 
 # 🚀 Featured Projects
 
-### 📂 Laravel File Tracking System
+## 📂 Laravel File Tracking System
 
-A complete file management system featuring:
+A complete file movement & management system featuring:
 
-- Authentication
-- Role Management
-- File Movement Tracking
-- CSV Import & Export
-- Reporting System
-
----
-
-### 🌐 Personal Portfolio
-
-🔗 **https://gauthamk.netlify.app**
-
-Responsive portfolio showcasing my skills, projects, and experience.
+- 🔐 Authentication
+- 👥 Role Management
+- 📄 File Tracking
+- 📊 Reports
+- 📁 CSV Import & Export
 
 ---
 
-### 💻 Web Development
+## 🌐 Personal Portfolio
 
-Building responsive and modern websites using
+**🔗 https://gauthamk.netlify.app**
+
+Responsive portfolio showcasing my projects and skills.
+
+---
+
+## 💻 Web Development
+
+Building modern web applications using
 
 - Laravel
 - PHP
-- MySQL
-- HTML
-- CSS
 - JavaScript
+- MySQL
+- HTML & CSS
 
 ---
 
-# 💻 Tech Stack
+# 🛠 Tech Stack
 
 ### Languages
 
-<p>
-
+<p align="center">
 <img src="https://skillicons.dev/icons?i=c,cpp,java,python,php,js,html,css,mysql"/>
-
 </p>
 
 ### Frameworks
 
-<p>
-
+<p align="center">
 <img src="https://skillicons.dev/icons?i=laravel,django,bootstrap,tailwind"/>
-
 </p>
 
 ### Tools
 
-<p>
-
+<p align="center">
 <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,netlify,vercel,cloudflare,npm"/>
-
 </p>
 
 ---
 
-# 📊 GitHub Stats
+# 📊 GitHub Statistics
 
 <p align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=g4thxm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=g4thxm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=g4thxm&layout=compact&theme=tokyonight&hide_border=true"/>
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=g4thxm&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </p>
 
@@ -149,43 +145,27 @@ Building responsive and modern websites using
 # 📈 Contribution Graph
 
 <p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=g4thxm&theme=tokyo-night"/>
-
-</p>
-
----
-
-# 🏆 GitHub Achievements
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=g4thxm&theme=tokyonight&no-frame=true&row=1&column=6"/>
-
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=g4thxm&theme=tokyo-night&hide_border=true"/>
 </p>
 
 ---
 
 # 🐍 Contribution Snake
 
-> Enable the GitHub Action later to activate this animation.
-
 <p align="center">
-
-<img src="https://raw.githubusercontent.com/g4thxm/g4thxm/output/github-contribution-grid-snake-dark.svg"/>
-
+<img src="https://raw.githubusercontent.com/g4thxm/g4thxm/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
 </p>
 
 ---
 
 # 📚 Currently Learning
 
-- Laravel Advanced Concepts
-- Django Framework
-- REST APIs
-- Authentication & Authorization
-- Software Architecture
-- Cloud Deployment
+- 🚀 Laravel Advanced Concepts
+- 🌐 Django Framework
+- 🔗 REST APIs
+- 🔒 Authentication & Authorization
+- ☁ Cloud Deployment
+- 🏗 Software Architecture
 
 ---
 
@@ -205,15 +185,11 @@ Building responsive and modern websites using
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
 </a>
 
-<a href="mailto:YOUR_EMAIL@example.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
 </p>
 
 ---
 
-# 💭 Random Dev Quote
+# 💡 Random Dev Quote
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
@@ -221,8 +197,10 @@ Building responsive and modern websites using
 
 <div align="center">
 
-## ⭐ Thanks for visiting my profile!
+### ⭐ Thanks for visiting my profile!
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00C2FF,100:6A5ACD"/>
+*"Code. Learn. Build. Repeat."* 🚀
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00C2FF,100:6A5ACD"/>
 
 </div>
