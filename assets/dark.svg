@@ -172,7 +172,7 @@
     <g font-size="12.5" font-weight="600">
       <!-- row 1 -->
       <g>
-        <rect x="516" y="394" width="60" height="26" rx="13" fill="none" stroke="url(#accent)" stroke-width="1.2" filter="url(#softGlow)"/>
+        <rect x="516" y="394" width="60" height="26" rx="13" fill="none" stroke="url(#accent)" stroke-width="1.2" />
         <rect x="516" y="394" width="60" height="26" rx="13" fill="#0F172A" opacity="0.6"/>
         <text x="546" y="411" text-anchor="middle" fill="#F8FAFC">Laravel</text>
       </g>
