@@ -110,13 +110,13 @@ const gautham = {
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=g4thxm&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=g4thxm&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="https://streak-stats.demolab.com?user=g4thxm&theme=tokyonight&hide_border=true"/>
 
 </p>
 
 <p align="center">
 
-<img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=g4thxm&layout=compact&theme=tokyonight&hide_border=true"/>
+<img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=g4thxm&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
 
 </p>
 
