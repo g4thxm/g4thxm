@@ -1,3 +1,9 @@
+<h1 align="center">Hi 👋, I'm Gautham Krishna J</h1>
+
+<h3 align="center">
+Full Stack Developer • Laravel Enthusiast • AI Explorer
+</h3>
+
 <div align="center">
 
 <picture>
@@ -34,45 +40,58 @@
 
 # 👨‍💻 About Me
 
-```javascript
+```ts
 const gautham = {
-    name: "Gautham Krishna J",
-    location: "Kerala, India",
-    education: "Bachelor of Computer Applications",
-    role: "Full Stack Developer",
+  name: "Gautham Krishna J",
+  location: "Kerala, India",
+  education: "Bachelor of Computer Applications",
+  role: "Full Stack Developer",
 
-    currentlyWorkingOn: [
-        "Laravel Applications",
-        "REST APIs",
-        "Personal Portfolio"
-    ],
+  currentlyWorkingOn: [
+    "Laravel Applications",
+    "REST APIs",
+    "Personal Portfolio"
+  ],
 
-    currentlyLearning: [
-        "Django",
-        "Docker",
-        "Cloud Computing",
-        "Artificial Intelligence"
-    ],
+  currentlyLearning: [
+    "Django",
+    "Docker",
+    "Cloud Computing",
+    "Artificial Intelligence"
+  ],
 
-    technologies: [
-        "Laravel",
-        "PHP",
-        "JavaScript",
-        "Python",
-        "MySQL"
-    ]
+  technologies: {
+    backend: ["Laravel", "PHP"],
+    frontend: ["JavaScript"],
+    programming: ["Python"],
+    database: ["MySQL"]
+  }
 };
 ```
-
 ---
 
-# 🚀 Featured Projects
+## 🚀 Featured Projects
 
-| Project | Description |
-|---------|-------------|
-| 📂 **Laravel File Tracking System** | Authentication, Role Management, Reports, CSV Import & Export |
-| 🌐 **Personal Portfolio** | Modern responsive portfolio with animations and SEO |
-| 🤖 **AI Projects** | Learning and building AI-powered applications |
+<details open>
+<summary><b>📂 Laravel File Tracking System</b></summary>
+
+- Role-Based Authentication
+- File Movement Tracking
+- Reports
+- CSV Import & Export
+- Laravel + MySQL
+
+</details>
+
+<details>
+<summary><b>🌐 Personal Portfolio</b></summary>
+
+- Responsive Design
+- SEO Optimized
+- Animations
+- Modern UI
+
+</details>
 
 ---
 
@@ -82,7 +101,7 @@ const gautham = {
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=c,cpp,java,python,php,js,html,css,mysql"/>
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,php,js,html,css,mysql&perline=9"/>
 
 </p>
 
@@ -90,7 +109,7 @@ const gautham = {
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=laravel,django,bootstrap,tailwind"/>
+<img src="https://skillicons.dev/icons?i=laravel,django,bootstrap,tailwind&perline=4"/>
 
 </p>
 
@@ -98,19 +117,19 @@ const gautham = {
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,docker,figma,netlify,vercel,npm"/>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,docker,figma,netlify,npm&perline=7"/>
 
 </p>
 
 ---
 
-# 📊 GitHub Analytics
+<!--  # 📊 GitHub Analytics
 
 <p align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=g4thxm&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=g4thxm&show_icons=true&theme=tokyonight&hide_border=true"/> -->
 
-<img width="49%" src="https://streak-stats.demolab.com?user=g4thxm&theme=tokyonight&hide_border=true"/>
+<!-- <img width="49%" src="https://streak-stats.demolab.com?user=g4thxm&theme=tokyonight&hide_border=true"/>
 
 </p>
 
@@ -118,9 +137,9 @@ const gautham = {
 
 <img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=g4thxm&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
 
-</p>
+</p> 
 
----
+--- -->
 
 # 📈 Contribution Graph
 
@@ -142,46 +161,26 @@ const gautham = {
 
 ---
 
-# 🌱 Currently Learning
+## 🌱 Current Focus
 
-- 🚀 Advanced Laravel
-- 🌐 Django
-- ☁ Cloud Computing
-- 🤖 Artificial Intelligence
-- 🐳 Docker
-- 🏗 System Design
+- 🚀 Building scalable Laravel applications
+- 🤖 Exploring AI integration in web apps
+- 🐳 Learning Docker for containerized development
+- 🏗️ Improving software architecture & system design
 
 ---
 
-# 🌍 Connect With Me
+<div align="center">
 
-<p align="center">
+### 🤝 Let's Connect
 
-<a href="https://gauthamk.netlify.app">
+Always open to collaborating on exciting projects and learning from the developer community.
 
-<img src="https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-
-</a>
-
-<a href="https://linkedin.com/in/gauthamkrishnaj">
-
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
-
-</a>
-
-<a href="https://instagram.com/iam._.gautham">
-
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-
-</a>
-
-</p>
-
----
+</div>
 
 # 💬 Quote
 
-> "Code. Learn. Build. Repeat."
+> "Keep learning. Keep building. Keep improving."
 
 ---
 
