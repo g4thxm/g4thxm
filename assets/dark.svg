@@ -1,0 +1,261 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <clipPath id="rounded"><rect width="1180" height="610" rx="24"/></clipPath>
+
+  <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7C3AED"/>
+    <stop offset="50%" stop-color="#22D3EE"/>
+    <stop offset="100%" stop-color="#10B981"/>
+    <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="100%;0%;100%" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+
+  <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#22D3EE"/>
+    <stop offset="50%" stop-color="#7C3AED"/>
+    <stop offset="100%" stop-color="#22D3EE"/>
+    <animate attributeName="x1" values="0%;100%;0%" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="100%;0%;100%" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+
+  <radialGradient id="bgGlowBlue" cx="20%" cy="20%" r="60%">
+    <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.25"/>
+    <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bgGlowPurple" cx="80%" cy="30%" r="60%">
+    <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bgGlowEmerald" cx="50%" cy="90%" r="60%">
+    <stop offset="0%" stop-color="#10B981" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+  </radialGradient>
+
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="8"/>
+  </filter>
+
+  <filter id="noise">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="n"/>
+    <feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.02 0"/>
+  </filter>
+
+  <clipPath id="leftClip"><rect x="0" y="0" width="448" height="610" rx="24"/></clipPath>
+</defs>
+
+<g clip-path="url(#rounded)">
+  <rect width="1180" height="610" fill="#030712"/>
+  <rect width="1180" height="610" fill="url(#bgGlowBlue)"/>
+  <rect width="1180" height="610" fill="url(#bgGlowPurple)"/>
+  <rect width="1180" height="610" fill="url(#bgGlowEmerald)"/>
+  <rect width="1180" height="610" filter="url(#noise)"/>
+
+  <!-- floating particles -->
+  <g opacity="0.5">
+    <circle cx="120" cy="80" r="1.6" fill="#22D3EE"><animate attributeName="cy" values="80;60;80" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.8;0.2" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="360" cy="500" r="1.4" fill="#7C3AED"><animate attributeName="cy" values="500;470;500" dur="6.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.7;0.2" dur="6.5s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="120" r="1.8" fill="#10B981"><animate attributeName="cy" values="120;95;120" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.75;0.2" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="450" r="1.5" fill="#22D3EE"><animate attributeName="cy" values="450;420;450" dur="5.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.7;0.2" dur="5.5s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="60" r="1.3" fill="#7C3AED"><animate attributeName="cy" values="60;40;60" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.6;0.15" dur="6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- border shimmer -->
+  <rect x="1.5" y="1.5" width="1177" height="607" rx="23" fill="none" stroke="url(#accent)" stroke-opacity="0.5" stroke-width="1.5"/>
+  <rect x="1.5" y="1.5" width="1177" height="607" rx="23" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+
+  <!-- LEFT PANEL -->
+  <g clip-path="url(#leftClip)">
+    <rect x="0" y="0" width="448" height="610" fill="#0F172A" opacity="0.55"/>
+    <rect x="0" y="0" width="448" height="610" fill="url(#bgGlowPurple)" opacity="0.4"/>
+
+    <g font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" fill="url(#asciiGrad)" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="6s" repeatCount="indefinite"/>
+      <text x="60" y="130">      .-&quot;&quot;&quot;&quot;&quot;-.</text>
+      <text x="60" y="146">    .'          '.</text>
+      <text x="60" y="162">   /   ..    ..   \</text>
+      <text x="60" y="178">  |   ( ●)  (● )   |</text>
+      <text x="60" y="194">  |     .--.       |</text>
+      <text x="60" y="210">   \   '----'    /</text>
+      <text x="60" y="226">    '.__________.'</text>
+      <text x="60" y="242">    /|          |\</text>
+      <text x="60" y="258">   / |  GAUTHAM |  \</text>
+      <text x="60" y="274">  /  |  K R I S | H  \</text>
+      <text x="60" y="290"> /___|__________|____\</text>
+      <text x="60" y="306">|   /            \    |</text>
+      <text x="60" y="322">|  / FULL  STACK  \   |</text>
+      <text x="60" y="338">|  \  DEVELOPER    /  |</text>
+      <text x="60" y="354">|   \____________/    |</text>
+      <text x="60" y="370">|______________________|</text>
+      <text x="60" y="386">   ||  ||    ||  ||</text>
+      <text x="60" y="402">   ()  ()    ()  ()</text>
+      <text x="60" y="418">> system.online_ <tspan opacity="1"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>█</tspan></text>
+
+      <animate attributeName="opacity" values="0;1" dur="1.4s" begin="0s" fill="freeze"/>
+    </g>
+
+    <!-- scanline sweep -->
+    <rect x="0" y="0" width="448" height="4" fill="#22D3EE" opacity="0.15">
+      <animate attributeName="y" values="0;606;0" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- glass reflection -->
+    <rect x="0" y="0" width="448" height="200" fill="#ffffff" opacity="0.03"/>
+    <rect x="448" y="0" width="1" height="610" fill="url(#accent)" opacity="0.4"/>
+  </g>
+
+  <!-- RIGHT PANEL -->
+  <g font-family="JetBrains Mono, Consolas, monospace" fill="#F8FAFC">
+    <!-- terminal chrome -->
+    <rect x="488" y="48" width="652" height="514" rx="14" fill="#0F172A" opacity="0.6" stroke="#ffffff" stroke-opacity="0.08"/>
+    <circle cx="514" cy="76" r="5" fill="#FF5F56"/>
+    <circle cx="532" cy="76" r="5" fill="#FFBD2E"/>
+    <circle cx="550" cy="76" r="5" fill="#27C93F"/>
+    <text x="1100" y="80" font-size="11" fill="#94A3B8" text-anchor="end">gautham@dev ~ zsh</text>
+    <line x1="488" y1="94" x2="1140" y2="94" stroke="#ffffff" stroke-opacity="0.08"/>
+
+    <!-- greeting -->
+    <text x="516" y="130" font-size="20" fill="#F8FAFC">
+      Hi <tspan>👋</tspan>
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.2s" fill="freeze"/>
+    </text>
+    <text x="516" y="160" font-size="26" font-weight="700" fill="url(#accent)" filter="url(#glow)">
+      I'm Gautham Krishna J
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.6s" fill="freeze"/>
+    </text>
+
+    <!-- typing role line -->
+    <g font-size="16" fill="#22D3EE">
+      <text x="546" y="192" opacity="0">
+        Full Stack Developer
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.3;0.34" dur="9s" begin="1s" repeatCount="indefinite"/>
+      </text>
+      <text x="546" y="192" opacity="0">
+        Laravel Developer
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.3;0.34" dur="9s" begin="4s" repeatCount="indefinite"/>
+      </text>
+      <text x="546" y="192" opacity="0">
+        Open Source Enthusiast
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.3;0.34" dur="9s" begin="7s" repeatCount="indefinite"/>
+      </text>
+      <text x="516" y="192" font-size="16">&gt;</text>
+      <text x="1000" y="192" opacity="1">█<animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></text>
+    </g>
+
+    <!-- info rows -->
+    <g font-size="14" fill="#94A3B8">
+      <text x="516" y="234" opacity="0">📍 Location: Kerala, India
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.4s" fill="freeze"/>
+      </text>
+      <text x="516" y="260" opacity="0">🎓 Education: Bachelor of Computer Applications
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.9s" fill="freeze"/>
+      </text>
+      <text x="516" y="286" opacity="0">🚀 Focus: Laravel · REST APIs · Full Stack Apps
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.4s" fill="freeze"/>
+      </text>
+      <text x="516" y="312" opacity="0">🌐 Portfolio: gauthamk.netlify.app
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.9s" fill="freeze"/>
+      </text>
+      <text x="516" y="338" opacity="0">✉ Email: contact via portfolio site
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.4s" fill="freeze"/>
+      </text>
+    </g>
+
+    <line x1="516" y1="356" x2="1112" y2="356" stroke="#ffffff" stroke-opacity="0.08"/>
+
+    <!-- skills pills -->
+    <text x="516" y="382" font-size="13" fill="#94A3B8" letter-spacing="1">SKILLS</text>
+
+    <g font-size="12.5" font-weight="600">
+      <!-- row 1 -->
+      <g>
+        <rect x="516" y="394" width="60" height="26" rx="13" fill="none" stroke="url(#accent)" stroke-width="1.2" filter="url(#softGlow)"/>
+        <rect x="516" y="394" width="60" height="26" rx="13" fill="#0F172A" opacity="0.6"/>
+        <text x="546" y="411" text-anchor="middle" fill="#F8FAFC">Laravel</text>
+      </g>
+      <g>
+        <rect x="584" y="394" width="42" height="26" rx="13" fill="none" stroke="url(#accent)" stroke-width="1.2"/>
+        <rect x="584" y="394" width="42" height="26" rx="13" fill="#0F172A" opacity="0.6"/>
+        <text x="605" y="411" text-anchor="middle" fill="#F8FAFC">PHP</text>
+      </g>
+      <g>
+        <rect x="634" y="394" width="88" height="26" rx="13" fill="none" stroke="url(#accent)" stroke-width="1.2"/>
+        <rect x="634" y="394" width="88" height="26" rx="13" fill="#0F172A" opacity="0.6"/>
+        <text x="678" y="411" text-anchor="middle" fill="#F8FAFC">JavaScript</text>
+      </g>
+      <g>
+        <rect x="730" y="394" width="66" height="26" rx="13" fill="none" stroke="url(#accent)" stroke-width="1.2"/>
+        <rect x="730" y="394" width="66" height="26" rx="13" fill="#0F172A" opacity="0.6"/>
+        <text x="763" y="411" text-anchor="middle" fill="#F8FAFC">Python</text>
+      </g>
+      <g>
+        <rect x="804" y="394" width="66" height="26" rx="13" fill="none" stroke="url(#accent)" stroke-width="1.2"/>
+        <rect x="804" y="394" width="66" height="26" rx="13" fill="#0F172A" opacity="0.6"/>
+        <text x="837" y="411" text-anchor="middle" fill="#F8FAFC">MySQL</text>
+      </g>
+
+      <!-- row 2 -->
+      <g>
+        <rect x="516" y="430" width="80" height="26" rx="13" fill="none" stroke="url(#accent)" stroke-width="1.2"/>
+        <rect x="516" y="430" width="80" height="26" rx="13" fill="#0F172A" opacity="0.6"/>
+        <text x="556" y="447" text-anchor="middle" fill="#F8FAFC">Bootstrap</text>
+      </g>
+      <g>
+        <rect x="606" y="430" width="82" height="26" rx="13" fill="none" stroke="url(#accent)" stroke-width="1.2"/>
+        <rect x="606" y="430" width="82" height="26" rx="13" fill="#0F172A" opacity="0.6"/>
+        <text x="647" y="447" text-anchor="middle" fill="#F8FAFC">Tailwind</text>
+      </g>
+      <g>
+        <rect x="698" y="430" width="70" height="26" rx="13" fill="none" stroke="url(#accent)" stroke-width="1.2"/>
+        <rect x="698" y="430" width="70" height="26" rx="13" fill="#0F172A" opacity="0.6"/>
+        <text x="733" y="447" text-anchor="middle" fill="#F8FAFC">Django</text>
+      </g>
+      <g>
+        <rect x="778" y="430" width="66" height="26" rx="13" fill="none" stroke="url(#accent)" stroke-width="1.2"/>
+        <rect x="778" y="430" width="66" height="26" rx="13" fill="#0F172A" opacity="0.6"/>
+        <text x="811" y="447" text-anchor="middle" fill="#F8FAFC">Docker</text>
+      </g>
+      <g>
+        <rect x="854" y="430" width="52" height="26" rx="13" fill="none" stroke="url(#accent)" stroke-width="1.2"/>
+        <rect x="854" y="430" width="52" height="26" rx="13" fill="#0F172A" opacity="0.6"/>
+        <text x="880" y="447" text-anchor="middle" fill="#F8FAFC">Git</text>
+      </g>
+
+      <!-- pulse glow on all pills -->
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="3.8s" fill="freeze"/>
+    </g>
+
+    <line x1="516" y1="478" x2="1112" y2="478" stroke="#ffffff" stroke-opacity="0.08"/>
+
+    <!-- socials -->
+    <g opacity="0" font-size="13" fill="#F8FAFC">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="4.3s" fill="freeze"/>
+
+      <g filter="url(#glow)">
+        <circle cx="536" cy="518" r="18" fill="#0F172A" stroke="url(#accent)" stroke-width="1.2"/>
+        <text x="536" y="523" text-anchor="middle" font-size="14">🐙</text>
+      </g>
+      <g filter="url(#glow)">
+        <circle cx="586" cy="518" r="18" fill="#0F172A" stroke="url(#accent)" stroke-width="1.2"/>
+        <text x="586" y="523" text-anchor="middle" font-size="14">💼</text>
+      </g>
+      <g filter="url(#glow)">
+        <circle cx="636" cy="518" r="18" fill="#0F172A" stroke="url(#accent)" stroke-width="1.2"/>
+        <text x="636" y="523" text-anchor="middle" font-size="14">📷</text>
+      </g>
+      <g filter="url(#glow)">
+        <circle cx="686" cy="518" r="18" fill="#0F172A" stroke="url(#accent)" stroke-width="1.2"/>
+        <text x="686" y="523" text-anchor="middle" font-size="14">🌐</text>
+      </g>
+
+      <text x="716" y="523" font-size="12.5" fill="#94A3B8">github.com/g4thxm  ·  gauthamk.netlify.app</text>
+    </g>
+
+    <!-- glass reflection right panel -->
+    <rect x="488" y="48" width="652" height="120" rx="14" fill="#ffffff" opacity="0.02"/>
+  </g>
+</g>
+</svg>
